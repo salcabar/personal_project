@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>南昌大学赋</title>
+        <link href="./stylesheets/default.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" charset="UTF-8" src="./js/prefixfree.min.js"></script>
+		<script type="text/javascript" src="./js/jquery.js"></script>
+        <script type="text/javascript" src="./js/typewriter.js"></script>
+		
+		<script type="text/javascript">
+$(function(){
+$("#word").typewriter(/*speed*/200);　// 设置打字速度
+});
+</script>
+        <style type="text/css">
+            .demo {
+                margin: 0px auto;
+                width: 600px;
+				position: relative;
+				z-index:1;
+            }
+                /*莲花花瓣的容器*/
+            .box {
+                position: absolute;/*设置相对定位，因为花瓣都要进行绝对定位*/
+                height: 400px;
+                display: block;
+				z-index:1;
+            }
+                /*花瓣进行绝对定位*/
+            .box .leaf {
+                position: absolute;
+				z-index:1;
+            }
+                /*绘制莲花花瓣*/
+            .leaf {
+                margin-top: 460px;
+                width: 300px;
+                height: 300px;
+                border-radius: 300px 0px;/*制作花瓣角*/
+                background: -webkit-linear-gradient(45deg,  rgba(188,190,192,1) 8%,rgba(158,31,99,1) 30%,rgba(158,31,99,1) 100%);/*制作花瓣颜色*/
+                opacity: 0.5;
+                filter:alpha(opacity=50);
+                transform: rotate(135deg);/*花瓣旋转45deg*/
+                transform-origin:  top right;
+				<!-- animation-direction:alternate; -->
+				animation: loading 1s forwards;
+				z-index:1;
+            }
+            @keyframes show-2 {
+                0% {
+                 transform: rotate(135deg);
+                }
+                100% {
+                 transform: rotate(15deg);
+                }
+            }
+            @keyframes show-3 {
+                0% {
+                 transform: rotate(135deg);
+                }
+                100% {
+                 transform: rotate(45deg);
+                }
+            }
+            @keyframes show-4 {
+                0% {
+                 transform: rotate(135deg);
+                }
+                100% {
+                 transform: rotate(75deg);
+                }
+            }
+            @keyframes show-5 {
+                0% {
+                 transform: rotate(135deg);
+                }
+                100% {
+                 transform: rotate(105deg);
+                }
+            }
+            @keyframes show-6 {
+                0% {
+                 transform: rotate(135deg);
+                }
+                100% {
+                 transform: rotate(165deg);
+                }
+            }
+            @keyframes show-7 {
+                0% {
+                 transform: rotate(135deg);
+                }
+                100% {
+                 transform: rotate(195deg);
+                }
+            }
+            @keyframes show-8 {
+                0% {
+                 transform: rotate(135deg);
+                }
+                100% {
+                 transform: rotate(225deg);
+                }
+            }
+			@keyframes show-9 {
+                0% {
+                 transform: rotate(135deg);
+                }
+                100% {
+                 transform: rotate(255deg);
+                }
+            }
+            .leaf:nth-child(2) {
+                animation: show-2 20s ease-in-out infinite alternate;
+            }
+            .leaf:nth-child(3) {
+                animation: show-3 20s ease-in-out infinite alternate;
+            }
+            .leaf:nth-child(4) {
+                animation: show-4 20s ease-in-out infinite alternate;
+            }
+            .leaf:nth-child(5) {
+                animation: show-5 20s ease-in-out infinite alternate;
+            }
+            .leaf:nth-child(6) {
+                animation: show-6 20s ease-in-out infinite alternate;
+            }
+            .leaf:nth-child(7) {
+                animation: show-7 20s ease-in-out infinite alternate;
+            }
+            .leaf:nth-child(8) {
+                animation: show-8 20s ease-in-out infinite alternate;
+            }
+			.leaf:nth-child(9) {
+                animation: show-9 20s ease-in-out infinite alternate;
+            }
+
+        </style>
+ </head>
+ <body>
+ <div id="container">
+ <div  id="word" class="word" >
+ <div id="tit" class="tit">南 昌 大 学 赋</div>
+ <div id="text" class="text">
+<span class="space">有风安公子者，寄南昌求学之三载矣，宁记其训曰，处今兮以校荣，未来兮以己誉。莘莘之万，觉其于沧海之一粟而见渺也，岂庸庸匪才乎，其孜孜就学乎，其听之任之而为勤，性之情之而为惰耶？予不然。或曰：“不求物之所得，何则也？”彼谋道之术适异，岂独乎予不为熙熙攘攘之客，奋争蝇营狗苟之利哉？彼故府之常在，春秋代序；而学子易老，惶恐乎去时之渐近，不稍驻也。因此三载之刻，求词于陋才，以为赋。
+</span><br>
+<span class="space">
+远游兮初离故土，高堂望窗之渐去；近抵兮乍到豫章，陌客步履之匆忙。行李囊肩，双手无闲，正人头千里，浩浩潺流，禀秋风之意气，除蓬篙之蔽茚，随人迁就，舒舒直往。俄顷兮双龙开道，半盏茶间，斯已在校，闾阎而威严；萦怀兮目不暇接，垂柳仪列，迎风信美，冲云而开朗。乐彼乎来人之向导，见恬微之逸豫，举手之情劳，温润之玉唇。学长以范，诚厚德而由衷；新郎以羞，信感激而全真！安置稍歇，夕阳如醉，愿发予之热心，扶之同归；意忉怛兮情憯恻，夜参半而不寐；云西流兮月蹒跚，床正对而未央。
+</span><br>
+<span class="space">
+翌日，相邀览游，希免胡思之緒，沿湖率行，首赖于绿水之朱亭。忽而石砖排列，阶梯紧循，润夕栈道，囘链相系，踧踧柳下，频落叶之傞傞；伎伎湖畔，少素颜之慇慇，左右堆绿，往来呤呤。昂首雝雝之迴旋，北雁泄泄，其形倏变，俄而圆如规画，矩若黑尘；复而菱指南针，箭比归心；听取喈喈之音，漏榭当庭。时鸟驰飞，莺燕奔奔；扶苏越天，枝丫蔌蔌；夫楼上之茕茕，坐看窗台之盛阳。池鱼振鳍，鲫鳆唯唯，涟漪同心，浅浪沵沵，宇下双双，轻拈山坡之海棠。幽径向晚，风多响沉，群海香樟。
+</span>
+</div>
+</div>
+    <section class="demo">
+        <div class="box">
+            <div class="leaf"></div>
+            <div class="leaf"></div>
+            <div class="leaf"></div>
+            <div class="leaf"></div>
+            <div class="leaf"></div>
+            <div class="leaf"></div>
+            <div class="leaf"></div>
+            <div class="leaf"></div>
+			<div class="leaf"></div>
+        </div>
+    </section>
+
+	  <div>
+      <embed src= "./music/1.mp3" width=0 height=0 type=audio/mpeg loop="true" autostart="true"> 
+      </div>
+	  </div>
+	  	<div class="button">
+	<a href="./index.html">进入首页</a>
+	</div>
+    </body>
+</html>
